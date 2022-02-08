@@ -209,7 +209,7 @@ const Projects = () => {
   const { showPopup, hidePopup } = usePopup();
   const { loading, data } = useGetProjectsQuery({ pollInterval: polling.PROJECTS, fetchPolicy: 'cache-and-network' });
   useEffect(() => {
-    document.title = 'Taskcafé';
+    document.title = 'УМИ';
   }, []);
   const [createProject] = useCreateProjectMutation({
     update: (client, newProject) => {
