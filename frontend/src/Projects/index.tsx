@@ -23,7 +23,7 @@ import NOOP from 'shared/utils/noop';
 import theme from 'App/ThemeStyles';
 import polling from 'shared/utils/polling';
 import { mixin } from '../shared/utils/styles';
-import FormInput from 'shared/components/FormInput';
+import FormInput from 'shared/utils/styles';
 
 type CreateTeamData = { name: string };
 
