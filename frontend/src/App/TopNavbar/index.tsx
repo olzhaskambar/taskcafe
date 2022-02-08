@@ -16,7 +16,7 @@ import cache from 'App/cache';
 import NotificationPopup, { NotificationItem } from 'shared/components/NotifcationPopup';
 import theme from 'App/ThemeStyles';
 import ProjectFinder from './ProjectFinder';
-import polling from 'shared/utils/polling';
+import polling from '.ProjectFinder';
 
 // TODO: Move to context based navbar?
 
