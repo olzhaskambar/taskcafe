@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/jordanknott/taskcafe/internal/commands"
+	"github.com/olzhaskambar/taskcafe/internal/commands"
 	_ "github.com/lib/pq"
 )
 
